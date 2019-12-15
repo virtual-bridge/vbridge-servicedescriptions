@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Scale Out NAS Service Description - vBridge</title>
+
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+    <!-- Noto Sans KR-Hestia -->
+    <link rel="stylesheet" href="./assets/font/noto/stylesheets/NotoSansKR-Hestia.css">
+    <!-- custom css -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="svcdesc-wrapper">
+      <!-- header -->
+      <header>                
+        <img src="assets/img/vBridge-logo.png" />
+        <div class="heading-container">
+            <h1>Scale Out NAS</h1>
+            <h2>SERVICE DESCRIPTION</h2>
+        </div> 
+      </header><!-- header -->
+      <!-- main -->
+      <section id="main">
+        <div class="svcdesc-item-wrapper">
+
+          <!-- agreement -->
+          <section class="svcdesc-item experience">
+            <div class="inner">
+                <h2>Introduction</h2>
+     
+                  <h3>What is a service description</h3>
+                  <div class="detail">
+                    The vBridge Service Description defines the services offered and specific terms and conditions for
+                  each of these services.  
+                  <ol type="a">
+    
+                    <li>Service Descriptions</li>
+                    <li>Pricing Schedule or Executed vBridge Proposal</li>
+                  </ol>
+                </div>
+     
+            </div>
+          </section><!-- agreement -->
+          <!-- service desc -->
+          <section class="svcdesc-item experience">
+              <div class="inner">
+                <h2>Service Description</h2>
+      
+                    <h3> What is Scale Out NAS?</h3>
+                    <div class="detail">
+            
+                      <p>vBridge  is a SMB/NFS/HDFS compatible storage location for the retention of Unstructured data files.</p>
+                      <p>The platform is designed for unstructured data that is presented to customer clients and servers over a file-based protocol rather than block storage. The storage platform provides underlying erasure encoding and data protection, with the ability to replicate data to another geographically diverse location.</p>
+                      <p>The customer must have private network connectivity to vBridge for access to the SMB/NFS/HDFS endpoints. Clients may reside on customer premises, while servers accessing the unstructured data endpoints must be Infrastructure as a Service hosted within the vBridge hosting platform.</p>
+                      <p>You will be allocated and billed for a quota for use of the Service.</p>
+                      <p>1) Total size (in TB) of the of the committed size of data in the storage environment.</p>
+                      <p>The quotas are allocated per tenant and are limited by location. The unstructured data is not intended for small SME file server replacement. As such, there is a minimum commit on the platform of 10TB.</p>
+                      <p>Ingress and Egress bandwidth for this service to and from client devices and servers within the vBridge data centre is included in the service price point.</p>
+                        
+                        <h4>Overview</h4>
+
+
+                        <div class="mgMed">
+                          <img src="assets/img/scaleoutnas-overview.png" />
+                        </div>
+
+                        <h4>Feature set</h4>
+
+                        <table class="table100 mgMed">
+                          <tbody>
+                            <tr>
+                            <td colspan="2">
+                            <p>Storage</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>PUT, COPY, POST, or LIST Requests</p>
+                            </td>
+                            <td>
+                            <p>No Charge</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Data Storage</p>
+                            </td>
+                            <td>
+                            <p>Charged per GB</p>
+                            </td>
+                            </tr>
+                            <tr>
+                              <td colspan="2">
+                            <p>Service</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Designed Durability</p>
+                            </td>
+                            <td>
+                            <p>100% Endpoint availability</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Email Support</p>
+                            </td>
+                            <td>
+                            <p>Included</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Phone Support</p>
+                            </td>
+                            <td>
+                            <p>Included</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Support Availability</p>
+                            </td>
+                            <td>
+                            <p>Business hours (8am &ndash; 5pm Mon &ndash; Fri NZST) and afterhours via on call escalation.</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Locations</p>
+                            </td>
+                            <td>
+                            <p>Christchurch</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Scale Up/Down</p>
+                            </td>
+                            <td>
+                            <p>24x7 via Portal</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Data Integrity Policy</p>
+                            </td>
+                            <td>
+                            <p>2d1n, optional replication copy</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Data Protection Policy</p>
+                            </td>
+                            <td>
+                            <p>Data snapshot policy flexible to customer requirements. Snapshot counts to quota usage.</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Client pre requisite</p>
+                            </td>
+                            <td>
+                            <p>AD/DNS integration steps required</p>
+                            </td>
+                            </tr>
+                            <tr>
+                              <td colspan="2">
+                            <p>Data Transfer</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Customer Network Data Transfer</p>
+                            </td>
+                            <td>
+                            <p>No charge</p>
+                            </td>
+                            </tr>
+                            <tr>
+                              <td colspan="2">
+                            <p>Security and Compliance</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Connection Security</p>
+                            </td>
+                            <td>
+                            <p>SSL</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Credential Security</p>
+                            </td>
+                            <td>
+                            <p>AD integrated</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Data Sovereignty Guaranteed</p>
+                            </td>
+                            <td>
+                            <p>YES</p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            <p>Data Ownership Guaranteed</p>
+                            </td>
+                            <td>
+                            <p>YES</p>
+                            </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <h4>Roles and Responsibilities</h4>
+                        <p>vBridge engineers are generally responsible for the Service Provider side or the environment. This includes the vBridge network, physical equipment, the operating systems on that equipment, and the configuration and management of the service provider side of the Isilon platform. The customer or reseller team is responsible for the management of the on-premise software (MS Active Directory, DNS), network IP Pool Allocation, Delegated DNS zone for &ldquo;smart connect&rdquo; and DNS sub domain management.</p>
+                        <p>Responsibilities of the Service Provider (vBridge):</p>
+                        <ul>
+                        <li>Monitor resources and provide tuning and advisement for Isilon Platform service provider issues</li>
+                        <li>Engineer all layers of the Isilon technology stack for high availability and compliance to vBridge policy</li>
+                        <li>Apply patches and upgrades as recommended for the storage infrastructure</li>
+                        <li>Monitor and tune the physical NAS and network environment as needed</li>
+                        <li>Manage permissions and security groups within the storage infrastructure</li>
+                        <li>Coordinate with vendors for licensing, maintenance and support requests</li>
+                        <li>Perform medium-term capacity planning</li>
+                        </ul>
+                        <p>Client endpoints (SMB/NFS/HDFS) many be managed by the customer, or may be contracted to a vBridge reseller. In either case, the responsivities of the endpoint administrator are:</p>
+                        <ul>
+                        <li>Serve as the primary trouble shooter for issues with an endpoint.</li>
+                        <li>Maintaining and managing the client-side environment. This includes the physical equipment, the operating systems on that equipment, the software, licensing and the configuration of the client side.</li>
+                        <li>Manage and maintain all client-side domain/directory.</li>
+                        <li>Ensure that all client-side software is correctly licensed and reported.</li>
+                        </ul>
+                        <h4>Optional Service</h4>
+                        <p>vBridge are able to replicate customer data to another location. Please contact vBridge for availability and pricing.</p>
+                        <p>Multiple shares and alternate directory based quotas or storage policies are available on request. Any customized creation of resources or policies is done on a time and materials and best effort basis.</p>
+
+
+
+                    </div>
+          
+              </div>
+            </section><!-- service desc -->
+<!-- access -->
+<section class="svcdesc-item experience">
+    <div class="inner">
+        <h2>Accessing Service</h2>
+   
+          <div class="detail">       
+            <h3>Accessing the Service</h3>
+            <p>This service can be provisioned and managed through the MyCloudSpace portal, or provisioned on behalf of the customer by vBridge staff.</p>
+            <p>Configuring the directory integration, shares and testing will be done as a joint exercise between vBridge and the customer during service provisioning.</p>
+          </div>
+
+
+    </div>
+  </section><!-- access -->
+  <!-- support -->
+<section class="svcdesc-item experience">
+    <div class="inner">
+        <h2>Support</h2>
+   
+          <div class="detail">       
+            <h3>Support</h3>
+            <p>Should you require support for Cloud Backup for Office 365, please visit raise a support query using the methods below.</p>
+            <ul>
+              <li>Phone <b>0800 VBRIDGE (827 4343)</b></li>
+              <li>Email <b>servicedesk@vbridge.co.nz</b></li>
+            </ul>
+            <p>vBridge support is available for 15 minutes of &lsquo;Grey Area Diagnostics&rsquo; when troubleshooting client endpoint side issues. If no fault found with the Cloud Backup for Office 365 target, then there will be a charge based on time and materials basis.</p>
+          </div>
+
+
+    </div>
+  </section><!-- support -->
+                      <!-- security -->
+          <section class="svcdesc-item experience">
+              <div class="inner">
+                  <h2>Security</h2>
+                    <h3>Security</h3>
+                    <div class="detail">
+                        <p>You will be responsible for ensuring your access keys and passwords are secured.  We may elect
+                        to suspend your service if we identify that your service may be compromised and no action has been
+                        taken by you within a reasonable timeframe to rectify the security breach.</p>
+                        
+                        <p>We will not be liable for any content, security breach, distribution of protected information or
+                        other malicious activity on your account.  vBridge may cease providing your service and retains the
+                        right to refuse refund on your service if you are found to have breached what is deemed to be fair use.</p>
+
+    
+                    </div>
+       
+       
+              </div>
+            </section><!-- security -->
+
+            <!-- contract -->
+          <section class="svcdesc-item experience">
+              <div class="inner">
+                  <h2>Contract</h2>
+             
+                    <div class="detail">       
+                      <h3>Data Retention Upon Cancellation</h3>
+                      <p>Upon cancellation of the service, data will be deleted and will no longer available. vBridge will use reasonable effort to assist in transition of data back to you.</p>
+
+                      <h3>Contract Term</h3>
+                      <p>Unstructured Data services have a minimum contract as specified in your Agreement for Provision of Service from vBridge.</p>
+                      <h3>Billing &amp; Pricing</h3>
+                      <p>Your service will be automatically renewed on an ongoing monthly basis. The billing frequency will be monthly.</p>
+                      <p>All Unstructured Data services are billed monthly in arrears, with usage based on hourly consumption to reflect changes.</p>
+                      <h3>Payment</h3>
+                      <p>Payment for the service is required by 20<sup>th</sup> of the month following the date of invoice.</p>
+                      <h3>Service Level Target</h3>
+                      <p>Availability of SMB/NFS/HDFS Endpoint - 100%</p>
+                      <h3>Availability</h3>
+                      <p>This is a 24x7 service supported by the vBridge. Escalation is provided through vBridge support and on call teams</p>
+                      <p>vBridge reserves the right to a scheduled maintenance windows as required for platform maintenance as required. One weeks’ notice will be given of any potential impacting actions.</p>
+                    </div>
+       
+       
+              </div>
+            </section><!-- security -->
+
+       
+        </div>
+      </section><!-- main -->
+
+      <!-- footer -->
+      <footer>
+          © 2018 <a href="http://www.vbridge.co.nz" target="-_blank">Virtual Bridge Limited</a>. All rights reserved.
+      </footer><!-- footer -->
+
+    </div>
+  </body>
+</html>

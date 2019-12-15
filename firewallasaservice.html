@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Firewall as a Service Service Description - vBridge</title>
+
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+    <!-- Noto Sans KR-Hestia -->
+    <link rel="stylesheet" href="./assets/font/noto/stylesheets/NotoSansKR-Hestia.css">
+    <!-- custom css -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="svcdesc-wrapper">
+      <!-- header -->
+      <header>                
+        <img src="assets/img/vBridge-logo.png" />
+        <div class="heading-container">
+            <h1>Firewall as a Service</h1>
+            <h2>SERVICE DESCRIPTION</h2>
+        </div> 
+      </header><!-- header -->
+      <!-- main -->
+      <section id="main">
+        <div class="svcdesc-item-wrapper">
+
+          <!-- agreement -->
+          <section class="svcdesc-item experience">
+            <div class="inner">
+                <h2>Introduction</h2>
+     
+                  <h3>What is a service description</h3>
+                  <div class="detail">
+                    The vBridge Service Description defines the services offered and specific terms and conditions for
+                  each of these services.  
+                  <ol type="a">
+    
+                    <li>Service Descriptions</li>
+                    <li>Pricing Schedule or Executed vBridge Proposal</li>
+                  </ol>
+                </div>
+     
+            </div>
+          </section><!-- agreement -->
+          <!-- service desc -->
+          <section class="svcdesc-item experience">
+              <div class="inner">
+                <h2>Service Description</h2>
+      
+                    <h3> What is Firewall as a Service?</h3>
+                    <div class="detail">
+            
+                      <p>vBridge Firewall as a Service (FWaaS) is a Fortinet firewall offering, for the protection and security of customer hosted infrastructure and networks.</p>
+<p>There are two options for of Firewall as a Service deployment:</p>
+<ol>
+<li>Fortinet Virtual Domain (VDOM).&nbsp;</li>
+<li>Fortinet Virtual Machine (FortiVM).</li>
+</ol>
+<p>The main differences between the two are summarised below:</p>
+<ol>
+<li>With the VDOM solution:</li>
+<ol style="list-style-type: lower-alpha;">
+<li>The hardware platform is fully managed and maintained by vBridge. This includes the firewall operating system (FortiOS) being updated and patched.</li>
+<li>b. vBridge manage and maintain the licensing and support.</li>
+<li>High Availability is included in the service by utilising Cluster Active/Passive Hardware Failover managed by vBridge.</li>
+<li>Network and Security functions benefit through hardware offloading to FortiASIC processors.</li>
+<li>Customers have limited Administration access. For example, there is no access to network interface and routing configurations.</li>
+</ol>
+<li>With the VM solution</li>
+<ol style="list-style-type: lower-alpha;">
+<li>The customer has full administrative control over the device.</li>
+<li>High Availability is provided by vBridge hosting platform and occurs automatically on hardware fault.</li>
+<li>vBridge provide license and support. Customer manages license installation and renewal.</li>
+<li>Network connectivity (add or remove a virtual network adapter) is managed via the MyCloudSpace portal.</li>
+</ol>
+</ol>
+<p>You will be allocated and billed for the following.</p>
+<ol>
+<ol>
+<li>VDOM
+<ol style="list-style-type: lower-alpha;">
+<li>Small/Medium/Large.</li>
+<li>Optional CIR Internet Bandwidth and IP address allocations</li>
+</ol>
+</li>
+<li>VM
+<ol style="list-style-type: lower-alpha;">
+<li>Cost of the size of the VM (CPU and RAM memory)</li>
+<li>License for appropriate size of FortiVM</li>
+</ol>
+</li>
+</ol>
+</ol>
+<p>The quotas are allocated per Service Instance. i.e. Internet bandwidth cannot be shared between multiple firewall instances.</p>
+                        
+ 
+                        <h4>Roles and Responsibilities</h4>
+                        <h4>Roles and Responsibilities - VDOM</h4>
+<p>vBridge engineers are generally responsible for underlying hardware platform. This includes the physical equipment, operating systems on that equipment, and the configuration and management of the Fortinet administrative platform. vBridge also perform regular backups of the overall firewall configuration. The customer or reseller team is responsible for the Security of the protected networks, the management of the Security policies and profiles, reporting on the VDOM.</p>
+<p><strong>Responsibilities of the Service Provider (vBridge)</strong></p>
+<ul>
+<li>Monitor resources and provide tuning and advisement for FortiGate service provider issues</li>
+<li>Engineer all layers of the Fortinet technology stack for high availability and compliance to vBridge policy</li>
+<li>Apply patches and upgrades as recommended for the Firewall infrastructure</li>
+<li>Respond to MAC requests for actions that end users cannot complete. E.g. network or system changes.</li>
+<li>Monitor and tune the hardware and network environment as needed</li>
+<li>Coordinate with vendors for licensing, maintenance and support requests</li>
+<li>Perform medium-term capacity planning for the security infrastructure</li>
+</ul>
+<p>Firewall Virtual Domains (VDOM) may be managed by the customer, or may be contracted to a vBridge reseller. In either case, the responsivities of the endpoint administrator are:</p>
+<ul>
+<li>Serve as the primary trouble shooter for issues with the firewall.</li>
+<li>Maintaining and managing the VDOM configuration. Including Security Policies and Profiles, Address objects, Traffic Shaping Policies, Intrusion Prevention, NAT, Web/DNS filters, DLP, WAF and Anti-Spam policies.</li>
+<li>Manage all logging and retention requirements.</li>
+<li>Manage and maintain all required encryption keys for VPN etc.</li>
+<li>Ensure that all client-side software is correctly licensed and reported.</li>
+</ul>
+<h4>Roles and Responsibilities - FortiVM</h4>
+<p>vBridge engineers are generally responsible for underlying hosting platform. This includes the physical equipment, operating systems on that equipment, and the configuration and management of the Hypervisor platform. The customer or reseller team is responsible for the Management of the FortiVM, the Security of the protected networks, the management of the Security policies and profiles, reporting on the VDOM.</p>
+<p><strong>Responsibilities of the Service Provider (vBridge):</strong></p>
+<ul>
+<li>Engineer all layers of the VMware technology stack for high availability and compliance to vBridge policy</li>
+<li>Respond to support requests for escalation issues.</li>
+<li>Monitor and tune the physical server and network environment as needed</li>
+<li>Coordinate with vendors for licensing, maintenance and support requests</li>
+</ul>
+<p>FortiVM are be managed by the customer, or may be contracted to a vBridge reseller. In either case, the responsivities of the endpoint administrator are:</p>
+<ul>
+<li>Serve as the primary trouble shooter for issues with the firewall.</li>
+<li>Maintaining and managing the VDOM configuration. Including Security Policies and Profiles, Address objects, Traffic Shaping Policies, Intrusion Prevention, NAT, Web/DNS filters, DLP, WAF and Anti-Spam policies.</li>
+<li>Manage all logging and retention requirements.</li>
+<li>Manage and maintain all required encryption keys for VPN etc.</li>
+<li>Patching and FortiOS upgrades on the FortiVM</li>
+<li>Ensure that all software is correctly licensed and reported. License Keys are supplied by vBridge</li>
+</ul>
+                        <h4>Optional Service</h4>
+                        <p>vBridge are able to assist with configuration of questions on the Service. Any work done on the configuration side of customer devices is done on a time and materials and best effort basis.</p>
+                        <h4>Optional Service &ndash; Direct Connect Backup</h4>
+                        <p>vBridge are able to offer a VDOM to act as a routing gateway for customers with a direct cross connect or Dark Fibre Access Service (DFAS) access to vBridge. This allows high speed access to vBridge Cloud Connect Backup service by integrating with customers internal networking. The cross connect has limited access to the Cloud Connect Backup Service only and is fully managed by vBridge.</p>
+
+                    </div>
+          
+              </div>
+            </section><!-- service desc -->
+<!-- access -->
+<section class="svcdesc-item experience">
+    <div class="inner">
+        <h2>Accessing Service</h2>
+   
+          <div class="detail">       
+            <h3>Accessing the Service</h3>
+            <p>This service can be provisioned and managed through the MyCloudSpace portal, or provisioned on behalf of the customer by vBridge staff.</p>
+            <p>The management endpoints for specific services are sent via email when services are deployed.  </p>
+          </div>
+
+
+    </div>
+  </section><!-- access -->
+  <!-- support -->
+<section class="svcdesc-item experience">
+    <div class="inner">
+        <h2>Support</h2>
+   
+          <div class="detail">       
+            <h3>Support</h3>
+            <p>Should you require support for Cloud Backup for Office 365, please visit raise a support query using the methods below.</p>
+            <ul>
+              <li>Phone <b>0800 VBRIDGE (827 4343)</b></li>
+              <li>Email <b>servicedesk@vbridge.co.nz</b></li>
+            </ul>
+            <p>vBridge support is available for 15 minutes of &lsquo;Grey Area Diagnostics&rsquo; when troubleshooting client endpoint side issues. If no fault found with the Cloud Backup for Office 365 target, then there will be a charge based on time and materials basis.</p>
+          </div>
+
+
+    </div>
+  </section><!-- support -->
+                      <!-- security -->
+          <section class="svcdesc-item experience">
+              <div class="inner">
+                  <h2>Security</h2>
+                    <h3>Security</h3>
+                    <div class="detail">
+                        <p>You will be responsible for security and configuration of the Firewall device.  This includes all Policies, Rules, and Security Profiles. Whilst the Firewalls are full Next-Gen deep inspection devices, it is up to the customer or integration partner to effectively utilize the functionality. </p>
+                        <p>We may elect to suspend your service if we identify that your Service may be compromised and no action has been taken by you within a reasonable timeframe to rectify the security breach.</p>
+                        <p>We will not be liable for any content, security breach, distribution of protected information or
+                          other malicious activity on your account. vBridge may cease providing your service and retains the
+                          right to refuse refund on your service if you are found to have breached what is deemed to be fair use.
+                          </p>
+
+    
+                    </div>
+       
+       
+              </div>
+            </section><!-- security -->
+
+            <!-- contract -->
+          <section class="svcdesc-item experience">
+              <div class="inner">
+                  <h2>Contract</h2>
+             
+                    <div class="detail">       
+                      <h3>Data Retention Upon Cancellation</h3>
+                      <p>Upon cancellation of the service, Firewall configuration data, rules and policies will be deleted and will no longer available. vBridge will use reasonable effort to assist in transition of data/rules back to you.</p>
+
+                      <h3>Contract Term</h3>
+                      <p>Firewall services have a minimum contract term as specified in your Agreement for Provision of Services from vBridge.</p>
+                      <h3>Billing &amp; Pricing</h3>
+                      <p>Your service will be automatically renewed on an ongoing monthly basis. The billing frequency will be monthly.</p>
+                      <p>All FWaaS service are billed monthly in arrears, with FortiVM the VM usage based on hourly consumption to reflect used resources.</p>
+          
+                      <h3>Payment</h3>
+                      <p>Payment for the service is required by 20<sup>th</sup> of the month following the date of invoice.</p>
+                      <h3>Service Level Target</h3>
+                      <p>Availability of Fortinet VDOM – 99.99%</p>
+                      <h3>Availability</h3>
+                      <p>This is a 24x7 service supported by the vBridge. Escalation is provided through vBridge support and on call teams</p>
+                      <p>vBridge reserves a pre-scheduled maintenance window every WEDNESDAY from 08:00pm-11:00pm for scheduled maintenance.</p>
+                    </div>
+       
+       
+              </div>
+            </section><!-- security -->
+
+       
+        </div>
+      </section><!-- main -->
+
+      <!-- footer -->
+      <footer>
+          © 2018 <a href="http://www.vbridge.co.nz" target="-_blank">Virtual Bridge Limited</a>. All rights reserved.
+      </footer><!-- footer -->
+
+    </div>
+  </body>
+</html>

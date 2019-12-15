@@ -1,0 +1,41 @@
+* {
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 ;
+}
+
+a {
+  color: inherit ;
+  text-decoration: none ;
+}
+
+ul {
+  list-style: none ;
+}
+.mgMed {margin: 1em 0;}
+
+.table100 {width:100%;}
+table {
+  border-collapse: collapse;
+}
+
+ th {
+  background: #ccc;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+tr:hover {
+  background: #d1d1d1;
+}
